@@ -1,0 +1,27 @@
+.contenido{
+    width: 50%;
+    padding: 20px;
+        p{
+            font-size: $textSm2;
+            line-height: 1.6;
+            color: $colorGrey;
+            margin-top: 20px;  
+        }
+            a{
+                list-style: none;
+                text-decoration: none;
+            }
+                button{
+                    width: 30%;
+                    margin-top: 20px;
+                    background-color: $colorBlue;
+                    color: $mainColor;
+                    padding: 10px;
+                    border-radius: 20px;
+                    border-color: $colorLightBlue;
+                    border-style: none;
+                        &:hover{
+                            background-color: $colorLightBlue;
+                        }
+                }
+}

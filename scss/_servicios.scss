@@ -1,0 +1,54 @@
+.GridServicios{
+    width: 96%;
+    max-height: auto;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas:
+    "seruno serdos sertres"
+    "seruno sercuatro sercinco";
+    gap: 3% 2%;
+       h3{
+            font-size: $textMd2;
+            color: $colorBlue;
+            padding-top: 10px; 
+        }
+        p{
+            font-size: $textSm2;
+            color: $colorGrey;
+        }
+        img{
+            max-width: 100%;   
+        }
+}
+
+.SerUno{
+    border: 2px $colorGrey solid;
+    grid-area: seruno;
+    padding: 20px;
+}
+
+.SerDos{
+    border: 2px $colorGrey solid;
+    grid-area: serdos;
+    padding: 20px;
+}
+
+.SerTres{
+    border: 2px $colorGrey solid;
+    grid-area: sertres;
+    padding: 20px;
+}
+
+.SerCuatro{
+    border: 2px $colorGrey solid;
+    grid-area: sercuatro;
+    padding: 20px;
+}
+
+.SerCinco{
+    border: 2px $colorGrey solid;
+    grid-area: sercinco;
+    padding: 20px;
+}

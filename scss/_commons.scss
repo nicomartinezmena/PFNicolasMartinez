@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    max-width: 100%;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1{
+    font-size: $textXlg;
+    font-weight: $fontWeigthFirst;
+    color: $colorLightBlue;
+}
+
+section{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+        img{
+            border: 15px $colorLightBlue solid;
+            box-shadow: 30px;
+            max-width: 40%;
+            object-fit: cover;
+            object-position: center;
+        }
+}
+
+article{
+    width: 30%;
+    padding: 20px;
+    border: 2px $colorGrey solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 17px 0;
+        h4{
+            margin: 0 auto;
+            font-size: $textMd;
+            color: $colorLightBlue;
+            a{
+                list-style: none;
+                text-decoration: none;
+                color: $colorLightBlue;
+                    &:hover{
+                        color: $colorBlue; 
+                    }
+            }
+        }
+        img{
+            border: none;
+            max-width: 100%;
+        }
+            h3{
+                font-size: $textMd;
+                padding: 10px 0;
+                color: $colorLightBlue;
+            }
+                p{
+                    font-size: $textSm2;
+                    color: $colorGrey;
+                }
+                    button{
+                        font-size: $textSm3;
+                        margin-top: 20px;
+                        background-color: $colorBlue;
+                        color: $mainColor;
+                        padding: 20px;
+                        border: none;
+                        border-radius: 20px;
+                            &:hover{
+                            background-color: $colorLightBlue;
+                            } 
+                    }
+                    
+}
+
+iframe{
+    max-width: 100%;
+}
+

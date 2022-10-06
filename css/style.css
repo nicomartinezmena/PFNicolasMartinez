@@ -9,6 +9,8 @@ body{
     font-family: 'Sarabun', sans-serif;
 }
 
+/********** INICIO NAV ***********/
+
 .bg-white{
     background-color: white;
     margin: 0 auto;
@@ -33,6 +35,8 @@ padding: 10px;
 text-align: center;
 }
 
+/********** HEADER ***********/
+
 header img{
     max-width: 100%;
 }
@@ -41,6 +45,8 @@ main{
     margin: 0 auto;
     width: 80%;
 }
+
+
 
 section{
     width: 100%;
@@ -58,6 +64,12 @@ section img{
     object-position: center;
 }
 
+h1{
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(1, 153, 255);
+}
+
 .contenido{
     width: 50%;
     padding: 20px;
@@ -67,12 +79,6 @@ section img{
     font-size: 1.3em;
     color: rgb(105, 101, 101);
     margin-top: 20px;
-}
-
-h1{
-    font-size: 4em;
-    font-weight: 600;
-    color: rgb(1, 153, 255);
 }
 
 .contenido a{
@@ -128,6 +134,22 @@ article img{
     max-width: 100%;
 }
 
+article h4{
+    margin: 0 auto;
+    font-size: 2em;
+    color: rgb(1, 153, 255);
+}
+
+h4 a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(1, 153, 255);
+}
+
+h4 a:hover{
+    color: rgb(7, 4, 113);
+}
+
 article h3{
     font-size: 2em;
     padding: 10px 0;
@@ -140,11 +162,17 @@ article p{
 }
 
 article button{
+    font-size: 0.8em;
     margin-top: 20px;
     background-color: rgb(7, 4, 113);
     color: white;
-    padding: 10px;
+    padding: 20px;
+    border: none;
     border-radius: 20px;
+}
+
+article button:hover{
+    background-color: rgb(1, 153, 255);
 }
 
 footer{
@@ -175,22 +203,6 @@ footer{
 
 strong{
     font-size: 0.7em;
-}
-
-article h4{
-    margin: 0 auto;
-    font-size: 2em;
-    color: rgb(1, 153, 255);
-}
-
-h4 a{
-    list-style: none;
-    text-decoration: none;
-    color: rgb(1, 153, 255);
-}
-
-h4 a:hover{
-    color: rgb(7, 4, 113);
 }
 
 form{
@@ -263,10 +275,9 @@ form input[type="submit"]:hover{
     gap: 3% 2%;
 }
 
-.SerUno{
-    border: 2px rgb(105, 101, 101) solid;
-    grid-area: seruno;
-    padding: 20px;
+.GridServicios p{
+    font-size: 1em;
+    color: rgb(105, 101, 101);
 }
 
 .GridServicios img{
@@ -274,9 +285,15 @@ form input[type="submit"]:hover{
 }
 
 .GridServicios h3{
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(7, 4, 113);
     padding-top: 10px;
+}
+
+.SerUno{
+    border: 2px rgb(105, 101, 101) solid;
+    grid-area: seruno;
+    padding: 20px;
 }
 
 .SerDos{
@@ -301,6 +318,10 @@ form input[type="submit"]:hover{
     border: 2px rgb(105, 101, 101) solid;
     grid-area: sercinco;
     padding: 20px;
+}
+
+iframe{
+    max-width: 100%;
 }
 
 
@@ -361,6 +382,11 @@ form input[type="submit"]:hover{
     .GridServicios p{
         font-size: 0.8em;
     }
+
+    .SerUno{
+        overflow: hidden;
+    }
+
 
 }
 
@@ -442,7 +468,7 @@ form input[type="submit"]:hover{
     }
 }
 
-/*INICIO DEL 5000*/
+/*INICIO DEL 500*/
 
 @media (max-width:500px){
 

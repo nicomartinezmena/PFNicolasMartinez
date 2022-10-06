@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header img {
+  max-width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+  color: rgb(1, 153, 255);
+}
+
+section {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section img {
+  border: 15px rgb(1, 153, 255) solid;
+  box-shadow: 30px;
+  max-width: 40%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article {
+  width: 30%;
+  padding: 20px;
+  border: 2px rgb(105, 101, 101) solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 17px 0;
+}
+article h4 {
+  margin: 0 auto;
+  font-size: 2em;
+  color: rgb(1, 153, 255);
+}
+article h4 a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(1, 153, 255);
+}
+article h4 a:hover {
+  color: rgb(7, 4, 113);
+}
+article img {
+  border: none;
+  max-width: 100%;
+}
+article h3 {
+  font-size: 2em;
+  padding: 10px 0;
+  color: rgb(1, 153, 255);
+}
+article p {
+  font-size: 1em;
+  color: rgb(105, 101, 101);
+}
+article button {
+  font-size: 0.8em;
+  margin-top: 20px;
+  background-color: rgb(7, 4, 113);
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}
+article button:hover {
+  background-color: rgb(1, 153, 255);
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.bg-white {
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1em;
+}
+
+#navegacion img {
+  width: 150px;
+}
+#navegacion ul li a {
+  color: rgb(7, 4, 113);
+}
+#navegacion ul li a:hover {
+  color: rgb(1, 153, 255);
+}
+
+.nav-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.contenido {
+  width: 50%;
+  padding: 20px;
+}
+.contenido p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: rgb(105, 101, 101);
+  margin-top: 20px;
+}
+.contenido a {
+  list-style: none;
+  text-decoration: none;
+}
+.contenido button {
+  width: 30%;
+  margin-top: 20px;
+  background-color: rgb(7, 4, 113);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rgb(1, 153, 255);
+  border-style: none;
+}
+.contenido button:hover {
+  background-color: rgb(1, 153, 255);
+}
+
+.TemasDeInteres {
+  border-bottom: 2px rgb(1, 153, 255) solid;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  padding: 30px 0;
+}
+.TemasDeInteres h2 {
+  font-size: 3em;
+  font-weight: 600;
+  color: rgb(1, 153, 255);
+}
+.TemasDeInteres p {
+  font-size: 1.3em;
+  color: rgb(105, 101, 101);
+  margin-top: 20px;
+}
+
+.GridServicios {
+  width: 96%;
+  max-height: auto;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50vh 50vh;
+  grid-template-areas: "seruno serdos sertres" "seruno sercuatro sercinco";
+  gap: 3% 2%;
+}
+.GridServicios h3 {
+  font-size: 1.5em;
+  color: rgb(7, 4, 113);
+  padding-top: 10px;
+}
+.GridServicios p {
+  font-size: 1em;
+  color: rgb(105, 101, 101);
+}
+.GridServicios img {
+  max-width: 100%;
+}
+
+.SerUno {
+  border: 2px rgb(105, 101, 101) solid;
+  grid-area: seruno;
+  padding: 20px;
+}
+
+.SerDos {
+  border: 2px rgb(105, 101, 101) solid;
+  grid-area: serdos;
+  padding: 20px;
+}
+
+.SerTres {
+  border: 2px rgb(105, 101, 101) solid;
+  grid-area: sertres;
+  padding: 20px;
+}
+
+.SerCuatro {
+  border: 2px rgb(105, 101, 101) solid;
+  grid-area: sercuatro;
+  padding: 20px;
+}
+
+.SerCinco {
+  border: 2px rgb(105, 101, 101) solid;
+  grid-area: sercinco;
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 120px;
+  height: 300px;
+  background-color: rgb(7, 4, 113);
+  color: white;
+}
+footer .pie {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+footer .pie .horario {
+  width: 20%;
+  padding: 20px;
+  font-size: 1em;
+}
+footer .pie .horario img {
+  max-width: 20%;
+}
+footer .pie .horario strong {
+  font-size: 0.8em;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px rgb(105, 101, 101) solid;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+form label {
+  width: 100%;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px;
+  font-size: 1.5em;
+  color: rgb(1, 153, 255);
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=tel] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid rgb(105, 101, 101);
+  border-radius: 3px;
+  background-color: white;
+  display: inline-block;
+}
+
+form textarea[name=mensaje] {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid rgb(105, 101, 101);
+  border-radius: 3px;
+  background-color: white;
+  display: inline-block;
+}
+
+form input[type=submit] {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px 16px;
+  margin-top: 32px;
+  border: 1px rgb(7, 4, 113) solid;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  background-color: rgb(7, 4, 113);
+  font-size: 1.3em;
+}
+form input[type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(1, 153, 255);
+}
+
+@media (max-width: 1200px) {
+  article {
+    width: 45%;
+    margin: 5px;
+  }
+  article h4 {
+    font-size: 2em;
+  }
+  footer {
+    height: auto;
+    font-size: 0.8em;
+  }
+  footer .pie {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .pie .horario {
+    width: 50%;
+    border-left: 3px skyblue solid;
+    margin: 30px 0;
+  }
+  footer .pie .horario strong {
+    font-size: 1.5em;
+  }
+  .GridServicios {
+    width: 96%;
+    margin: 20px 0;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: "seruno seruno serdos serdos" "sertres sertres sercuatro sercinco";
+    gap: 3% 2%;
+  }
+  .GridServicios h3 {
+    font-size: 1.5em;
+  }
+  .GridServicios p {
+    font-size: 0.8em;
+  }
+  .SerUno {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) {
+  .nav-item {
+    border-bottom: 1px solid rgb(1, 153, 255);
+  }
+  section img {
+    max-width: 100%;
+  }
+  .contenido {
+    width: 100%;
+  }
+  .contenido h1 {
+    font-size: 3em;
+  }
+  .contenido a p {
+    font-size: 1.3em;
+  }
+  .TemasDeInteres h2 {
+    font-size: 2em;
+  }
+  article {
+    width: 100%;
+  }
+  .GridServicios {
+    width: 92%;
+    margin: 40px 20px;
+    display: block;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "seruno" "serdos" "sertres" "sercuatro" "sercinco";
+    gap: 3% 2%;
+  }
+  .SerGridResponsive {
+    margin: 20px 0;
+  }
+  main {
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  #carouselExampleControls {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  footer .pie .horario {
+    width: 100%;
+    border-top: 2px skyblue solid;
+    border-left: none;
+    font-size: 1.3em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

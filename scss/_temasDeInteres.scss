@@ -1,0 +1,17 @@
+.TemasDeInteres{
+    border-bottom: 2px $colorLightBlue solid;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px 0;
+        h2{
+            font-size: $textLg;
+            font-weight: $fontWeigthFirst;
+            color: $colorLightBlue;
+        }
+            p{
+                font-size: $textSm;
+                color: $colorGrey;
+                margin-top: 20px;
+            }
+}

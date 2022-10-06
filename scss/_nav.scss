@@ -1,0 +1,27 @@
+.bg-white{
+    background-color: $mainColor;
+    margin: 0 auto;
+    width: 80%;
+    font-size: $textSm2;
+}
+
+#navegacion{
+    img{
+        width: 150px;
+    }
+    ul{
+        li{
+            a{
+                color: $colorBlue;
+                    &:hover{
+                        color: $colorLightBlue;
+                    }
+            }
+        }
+    }
+}
+
+.nav-item{
+    padding: 10px;
+    text-align: center;
+    }

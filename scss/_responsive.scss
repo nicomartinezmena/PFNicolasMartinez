@@ -1,0 +1,134 @@
+//INICIO DEL 1200
+
+@media (max-width:1200px){
+    article{
+        width: 45%;
+        margin: 5px;
+        h4{
+            font-size: $textMd;
+        }
+    }
+
+
+    footer{
+        height: auto;
+        font-size: $textSm3;
+        .pie{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+                .horario{
+                    width: 50%;
+                    border-left: 3px skyblue solid;
+                    margin: 30px 0;
+                        strong{
+                            font-size: $textMd2;
+                        }
+                }
+        }
+    }
+
+    .GridServicios{
+        width: 96%;
+        margin: 20px 0;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50vh 50vh;
+        grid-template-areas:
+        "seruno seruno serdos serdos"
+        "sertres sertres sercuatro sercinco";
+        gap: 3% 2%;
+        h3{
+            font-size: $textMd2;
+        }
+        p{
+            font-size: $textMd3;
+        }
+    }
+
+    .SerUno{
+        overflow: hidden;
+    }
+
+
+}
+
+//INICIO DEL 768
+
+@media (max-width:768px){
+    .nav-item{
+        border-bottom: 1px solid rgb(1, 153, 255);
+    }
+
+    section img{
+        max-width: 100%;
+    }
+
+    .contenido{
+        width: 100%;
+        h1{
+            font-size: $textLg;
+        }
+        a p{
+            font-size: $textSm;
+        }
+    }
+
+     .TemasDeInteres h2{
+        font-size: $textMd;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    .GridServicios{
+        width: 92%;
+        margin: 40px 20px;
+        display: block;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "seruno"
+        "serdos"
+        "sertres"
+        "sercuatro"
+        "sercinco";
+        gap: 3% 2%;
+    }
+
+    .SerGridResponsive {
+        margin: 20px 0;
+    }
+
+    main{
+        height: auto;
+    }
+}
+
+//INICIO DEL 500
+
+@media (max-width:500px){
+
+    #carouselExampleControls{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+   
+    footer{
+        .pie{
+            .horario{
+                width: 100%;
+                border-top: 2px skyblue solid;
+                border-left: none;
+                font-size: $textSm;
+            }
+        }
+    }
+
+}

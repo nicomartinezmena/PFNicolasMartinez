@@ -1,0 +1,55 @@
+form{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px $colorGrey solid;
+    margin-top: 50px;
+    padding: 30px 0;
+        label{
+            width:100%;
+	        font-weight:bold;
+	        display:inline-block;
+            margin:20px;
+            font-size: $textMd2;
+            color: $colorLightBlue;
+        }
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+	width:80%;
+    padding: 10px;
+	border:1px solid $colorGrey;
+	border-radius:3px;
+	background-color: $mainColor;
+	display:inline-block;
+}
+
+form textarea[name="mensaje"]{
+	width:80%;
+    padding: 20px;
+	border:1px solid $colorGrey;
+	border-radius:3px;
+	background-color: $mainColor;
+	display:inline-block;
+    
+}
+
+form input[type="submit"]{
+	width:30%;
+    margin: 0 auto;
+    padding:20px 16px;
+	margin-top:32px;
+	border:1px $colorBlue solid;
+	border-radius:5px;
+	display:block;
+	color: $mainColor;
+	background-color: $colorBlue;
+    font-size: $textSm;
+        &:hover{
+            cursor: pointer;
+            background-color: $colorLightBlue;
+        }
+} 
