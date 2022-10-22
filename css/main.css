@@ -330,7 +330,7 @@ form input[type=submit]:hover {
     font-size: 1.5em;
   }
   .GridServicios p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .SerUno {
     overflow: hidden;
@@ -358,6 +358,12 @@ form input[type=submit]:hover {
   article {
     width: 100%;
   }
+  article h3 {
+    font-size: 1.3em;
+  }
+  article h4 {
+    font-size: 1.5em;
+  }
   .GridServicios {
     width: 92%;
     margin: 40px 20px;
@@ -380,6 +386,9 @@ form input[type=submit]:hover {
   }
   header {
     display: none;
+  }
+  form input[type=submit] {
+    width: 70%;
   }
   footer .pie .horario {
     width: 100%;
